@@ -1,0 +1,102 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: white;
+}
+
+.dropdownMenu {
+  right: 0;
+  left: auto !important;
+}
+.home {
+  display: flex;
+}
+.filters {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  width: 20%;
+  height: 85vh;
+}
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+.filters span {
+  display: block;
+  margin-bottom: 20px;
+}
+.rating {
+  display: inline !important;
+}
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 78%;
+  justify-content: space-around;
+}
+.cardTitle {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.cardSubtitle span {
+  display: block;
+  margin-bottom: 10px;
+}
+.product {
+  width: 30%;
+  margin: 10px;
+}
+.cartItem {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.cartItem img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.cartDesc {
+  display: flex;
+  flex-direction: column;
+}
+.cartDelIcon {
+  margin-top: 15px;
+}
+.cartButton {
+  width: 95%;
+  margin: 0 10px;
+}
+.checkoutButton {
+  width: 95%;
+  margin: 0 10px;
+  margin-top: 40px;
+}
+.summary {
+  width: 22%;
+}
+.cartImg {
+  width: 100px;
+  height: 100px;
+}
+.cartRow {
+  display: flex;
+}
+@media screen and (max-width: 778px) {
+  .filters {
+    width: 40%;
+  }
+  .productContainer {
+    width: 58%;
+  }
+  .product {
+    width: 100%;
+  }
+  .searchBox {
+    display: none;
+  }
+}
